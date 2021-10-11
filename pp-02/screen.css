@@ -14,9 +14,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     padding: 14px;
   }
 /* Typo Grid*/
-.g body { position: relative; }
+.tg body { position: relative; }
 
-.g body::after {
+.tg body::after {
   content: "";
   display: block;
   pointer-events: none;
@@ -28,4 +28,4 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   position: absolute;
 }
 
-.g body:active::after { display: none; }
+.tg body:active::after { display: none; }
