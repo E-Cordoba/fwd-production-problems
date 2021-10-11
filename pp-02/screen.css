@@ -7,3 +7,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+  html {
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 14px;
+  }
+/* Typo Grid*/
+.g body { position: relative; }
+
+.g body::after {
+  content: "";
+  display: block;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  position: absolute;
+}
+
+.g body:active::after { display: none; }
